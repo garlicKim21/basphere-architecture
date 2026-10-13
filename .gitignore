@@ -1,0 +1,26 @@
+# Terraform 관련
+**/*.tfstate
+**/*.tfstate.*
+**/.terraform/
+**/.terraform.lock.hcl
+**/*.tfvars
+!**/*.tfvars.example
+
+# 민감 정보
+**/*.pem
+**/*.key
+**/secrets/
+**/.env
+**/.env.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
